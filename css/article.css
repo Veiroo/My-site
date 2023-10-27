@@ -1,0 +1,15 @@
+html{
+    box-sizing: border-box;
+}
+
+*, ::after, ::before{
+    box-sizing: inherit;
+}
+
+.article__list{
+    padding: 20px;
+}
+
+.article__zotherInterests{
+    padding: 20px;
+}

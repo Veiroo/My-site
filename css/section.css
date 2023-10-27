@@ -1,0 +1,36 @@
+html{
+    box-sizing: border-box;
+}
+
+*, ::after, ::before{
+    box-sizing: inherit;
+}
+
+.section__table{
+    border-collapse: collapse;
+    overflow: auto;
+}
+
+.section__tableMature{
+    border-style: ridge;
+    border-width: 2px;
+    text-align: center;
+    padding: 10px;
+}
+
+
+.section__tableMature:hover{
+    background-color: #969696;
+}
+
+
+
+.section__coption{
+    font-size: 25px;
+    font-weight: 600;
+    padding: 20px;
+}
+
+.section__interests{
+   margin-top: 25px;
+}

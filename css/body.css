@@ -1,0 +1,57 @@
+html{
+    box-sizing: border-box;
+}
+
+*, ::after, ::before{
+    box-sizing: inherit;
+}
+
+.body{
+    background-color: #e3e3e3;
+    line-height: 18px;
+    margin: 0px auto;
+    padding: 15px;
+    max-width:  1000px;
+    font-family: 'Roboto', sans-serif; 
+}
+
+.aside__list{
+    padding: 0px;
+    list-style-type: none
+}
+
+.darkMotive{
+    background-color: #3a3a3a;
+    color: #0dff00;
+}
+
+.button{
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color:rgb(186, 186, 186) ;
+    border-color: rgb(220, 220, 220);
+    border-width: 5px;
+    border-style: groove;
+    position: relative;	box-shadow: 5px 10px 18px 0px #565656;
+    
+}
+
+.darkButton{
+    color: #0dff00;
+    background-color: #4a4a4a;
+    border-color: #808080;
+    border-width: 5px;
+    border-style: groove;
+}
+
+.header{
+    padding-top: 30px;
+}
+
+.changeColor{
+    color: rgb(255, 0, 0)
+}
+
+.darkBasic{
+    color: #0dff00;
+}
